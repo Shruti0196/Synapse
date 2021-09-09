@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  {% csrf_token %}
+<style>
+    h1{
+        text-align: center;
+        color: rgb(218, 82, 67);
+    }
+    h3{
+        text-align: end;
+    }
+</style>
+
+<h1 style="font-size:45px;">Welcome {{user.username}}</h1>
+
+
+<h3><a href='logout'>Log out</a></h3>
+<hr>
+<h2>Input your text below:</h2>
+<form method="" action="result">
+    <textarea name='text' rows="25" cols="150"></textarea><br><br>
+    <input type="submit"/>
+</form>  
+</body>
+</html>
