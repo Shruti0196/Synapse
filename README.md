@@ -3,10 +3,10 @@
 Home Page:
 ![Screenshot (111)](https://user-images.githubusercontent.com/80119277/132693445-93180ad6-3b59-45f7-92d7-98f4c1f5012b.png)
 
-Sign Up page:
+Signup page:
 ![Screenshot (117)](https://user-images.githubusercontent.com/80119277/132693472-68e42927-51ae-4a96-9f16-dc5fdf44ac65.png)
 
-Log in page:
+Login page:
 ![Screenshot (112)](https://user-images.githubusercontent.com/80119277/132693522-bdaf40e5-a082-4698-ac83-246c8718462c.png)
 
 Counter page:
