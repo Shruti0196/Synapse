@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+  padding: 20px;
+  background: #afd5da;
+}
+
+.header {
+  padding: 3px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Travel Blog</h2>
+</div>
+
+    {% for post in posts reversed %}
+    <div class="card">
+      <a style= "text-decoration:none; color: black;" href="post/{{post.title}}">
+        <h2>{{post.title}}</h2>
+        <h5>{{post.created_at}}</h5>
+        <p>{{post.body|truncatewords:20}}</p>
+      </a>
+    </div>
+    {% endfor %}
+ 
+</body>
+</html>

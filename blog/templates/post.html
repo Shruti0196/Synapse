@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+  padding: 20px;
+  background: #ecb1b1;
+}
+
+.header {
+  padding: 2px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+h3{
+  text-align: right;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>{{posts.title}}</h2>
+</div>
+
+    <div class="card">
+
+        <h5>{{posts.created_at}}</h5>
+        <p>{{posts.body}}</p>
+      <h3><a href='/'>Back to Home Page</a></h3>
+    </div>
+ 
+</body>
+</html>
