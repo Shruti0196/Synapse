@@ -30,7 +30,8 @@ body {
 <div class="header">
   <h2>Travel Blog</h2>
 </div>
-
+  <h3 ><a style="text-decoration:none; color: black;" href="addblog">Add blog</a></h3>
+  <h3><a style="text-decoration:none; color: black;" href="deleteblog">Delete blog</a></h3>
     {% for post in posts reversed %}
     <div class="card">
       <a style= "text-decoration:none; color: black;" href="post/{{post.title}}">
